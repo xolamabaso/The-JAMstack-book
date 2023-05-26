@@ -1,0 +1,16 @@
+<h2>Liquid Demo</h2>
+{% assign name = "Steve" %}
+<p>
+   Hello, {{name}}!
+</p>
+{% assign cool = true %}
+{% if cool %}
+<p> yes you are cool!</p>
+{% endif %}
+
+{% assign cats = "Bob,Tin,Jabu,Thabo" | split: ',' %}
+<ul>
+   {% for cat in cats %}
+      <li>{{cat}}</li>
+   {% endfor %}
+</ul>

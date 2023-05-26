@@ -1,0 +1,8 @@
+<nav class="navbar">
+  <div id="trapezoid">
+    <a href="/" {% if pageId == "home" %} class="active" {%endif%}>Home</a>
+    <a href="/about" {% if pageId == "about" %}class="active"{%endif%}>About</a>
+    <a href="#" {% if pageId == "client" %}class="active"{%endif%} >Clients</a>
+    <a href="#" {% if pageId == "contact" %}class="active"{%endif%} >Contact</a>
+  </div>
+</nav>
