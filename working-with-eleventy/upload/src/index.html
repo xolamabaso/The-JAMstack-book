@@ -1,0 +1,23 @@
+---
+layout: "layouts/base.html"
+pageId: "home"
+title: "Home"
+bannerContent: "This is the home page banner!"
+username: "xolamabaso@gmail.com"
+name: "xola"
+loggedIn: "false"
+admin: "false"
+customer: "false"
+triptychs:
+  - headline: "Triptych headline 1"
+  - content: "Triptych content 1"
+  - headline: "Triptych headline 2"
+  - content: "Triptych content 2"
+  - headline: "Triptych headline 3"
+  - content: "Triptych content 3"
+---
+
+<section class="triptych">
+  {% for item in triptychs %} {% include "includes/card.html", headline: item.headline, 
+  content: item.content %} {%endfor%}
+</section>

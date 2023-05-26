@@ -1,0 +1,30 @@
+body {
+      background-image: linear-gradient(to right, #00b09b, #96c93d);
+      font-family: arial, sans-serif;
+      border: 5px dashed rgb(7, 37, 183);
+      margin: auto;
+      max-width: 50%;
+      padding: 10px;
+      text-align: center;
+    }
+    ul {
+      text-decoration: none;
+      list-style-type: none;
+    }
+    h3 {
+      color: #999999;
+      font-family: arial, sans-serif;
+      font-size: 26px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 1px;
+    }
+    footer {
+      background-color: #c0c0c0;
+      padding: 10px;
+    }
+    svg{
+      max-width: 7rem;
+      max-height: 7rem;
+      align-self: center;
+    }

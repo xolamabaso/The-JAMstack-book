@@ -1,0 +1,16 @@
+{
+  "triptychs": [
+    {
+      "headline": "headline content",
+      "content": "content content"
+    },
+    {
+      "headline" : "headline content",
+      "content" :"content content"
+    },
+    {
+      "headline" : "headline content",
+      "content" :"content content"
+    }
+  ]
+}

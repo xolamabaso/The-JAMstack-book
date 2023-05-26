@@ -1,0 +1,4 @@
+# Keep node modules out of github and let them be fetched at build time
+node_modules
+# The site should be generated at our chosen platform at build time
+_src
